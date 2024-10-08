@@ -1,0 +1,73 @@
+* {
+  width: auto;
+  font-family: "poppins", "Bayon", sans-serif;
+}
+body {
+  background-color: white;
+}
+.Heading {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 21px;
+}
+.h1co {
+  color: rgb(247, 101, 125);
+}
+.h5txt {
+  text-align: center;
+}
+.start {
+  text-align: left;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  color: #9b59b6;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.1em;
+  color: #666;
+}
+
+.code-block {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  text-align: left;
+  position: relative;
+}
+
+pre {
+  margin: 0;
+  font-size: 1.1em;
+  color: #46343d;
+  overflow-x: auto;
+}
+input,
+.btn {
+  color: pink;
+  border: 1px solid pink;
+}
+a {
+  color: rgb(185, 107, 120);
+}
+.btn {
+  background-color: #ffecc8;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+.btn :hover {
+  background-color: black;
+}
